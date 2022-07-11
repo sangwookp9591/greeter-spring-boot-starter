@@ -15,3 +15,5 @@ dependencies {
     compileClasspath('com.github.sangwookp9591:autoconfiguration:862083635a')
     compileClasspath('com.github.sangwookp9591:greeter:334939f01f')
 }
+
+jar { enabled = true }
