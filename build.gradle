@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'kr.co'
+version '1.0.0'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.sangwookp9591:greeter:334939f01f'
+    implementation 'com.github.sangwookp9591:greeter:f5498f6491'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
