@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-version 'unspecified'
+version '1.0.0'
 
 sourceCompatibility = 1.8
 
@@ -12,8 +12,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.sangwookp9591:greeterAutoConfigure:master-89f4cfa4b7-1'
+    implementation 'com.github.sangwookp9591:autoconfiguration:862083635a'
     implementation 'com.github.sangwookp9591:greeter:334939f01f'
-//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-//    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
