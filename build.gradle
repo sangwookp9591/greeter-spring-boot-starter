@@ -12,6 +12,6 @@ repositories {
 }
 
 dependencies {
-    compile('com.github.sangwookp9591:autoconfiguration:114e86cde3')
+    compile('com.github.sangwookp9591:autoconfiguration:1b1b966582')
     compile('com.github.sangwookp9591:greeter:92e855d4b1')
 }
